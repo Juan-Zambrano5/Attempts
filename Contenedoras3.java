@@ -1,25 +1,29 @@
 package clase;
-// 2 contenedoras con asignaturas y notas, a traves de un ciclo se colocan las notas y con otro ciclo dar las notas asignadas
+
+// 2 arraylsits, one with 5 subjects and the other with 5 grades, with a loop, the grades will be assign with each subject and other loop will show the grades
+
+//import the library JOptionPane
 import javax.swing.JOptionPane;
 
 public class Contenedoras3 {
 	public static void main(String[]args) {
-		String Asignaturas [] = new String[5];
-		Asignaturas [0] = "Calculo";
-		Asignaturas [1] = "Apo";
-		Asignaturas [2] = "Mecanica";
-		Asignaturas [3] = "Algebra";
-		Asignaturas [4] = "Humanismo";
+		//create the arraylist Subjects
+		String Subjects [] = new String[5];
+		Subjects [0] = "Calculo";
+		Subjects [1] = "Apo";
+		Subjects [2] = "Mecanica";
+		Subjects [3] = "Algebra";
+		Subjects [4] = "Humanismo";
 		
-		double Notas [] = new double[5];
+		double grades [] = new double[5];
 		for (int i=0; i<5; i++) {
-			Notas [i] = Float.parseFloat(JOptionPane.showInputDialog(null, "Ingrese la nota de la materia " + Asignaturas[i]));
+			grades [i] = Float.parseFloat(JOptionPane.showInputDialog(null, "Ingrese la nota de la materia " + Subjects[i]));
 		}
 		
 		
 		
 		for (int i=0; i<5; i++) {
-		JOptionPane.showMessageDialog(null, "La nota de " +Asignaturas[i]+" es de: " + Notas[i]);
+		JOptionPane.showMessageDialog(null, "La nota de " +Subjects[i]+" es de: " + grades[i]);
 		}
 		}
 		//Conectar las dos contenedoras con un ciclo
