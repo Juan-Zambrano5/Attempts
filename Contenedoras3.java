@@ -14,19 +14,34 @@ public class Contenedoras3 {
 		Subjects [2] = "Mecanica";
 		Subjects [3] = "Algebra";
 		Subjects [4] = "Humanismo";
-		
+
+		//create a StringBuilder with the name of message
+		StringBuilder message = new StringBuilder();
+
+		//create the arraylist grades
 		double grades [] = new double[5];
+
+		//a for loop so the user can enter the 5 grades and it assign the grades with the subjects
 		for (int i=0; i<5; i++) {
 			grades [i] = Float.parseFloat(JOptionPane.showInputDialog(null, "Ingrese la nota de la materia " + Subjects[i]));
 		}
 		
+		//a for loop that set element to everything thats inside subjects
+		//add element per element to message and it line breaks
+		for (String element : Subjects) {
+	            message.append(element).append("\n");
+	        }
+
+		//a for loop that set element to everything thats inside grades
+		//add element per element to message and it line breaks
+		 for (double element : grades) {
+	            message.append(element).append("\n");
+	        }
+
+		//finally we change message to a string and we show it with JOptionPane
+		 JOptionPane.showMessageDialog(null, "Elements in the ArrayList:\n" + message.toString());
 		
-		
-		for (int i=0; i<5; i++) {
-		JOptionPane.showMessageDialog(null, "La nota de " +Subjects[i]+" es de: " + grades[i]);
 		}
-		}
-		//Conectar las dos contenedoras con un ciclo
 		
 	}
 
