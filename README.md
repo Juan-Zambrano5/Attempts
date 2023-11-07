@@ -33,7 +33,7 @@ import javax.swing.JOptionPane is the command that'll let us work with JOptionPa
 ## Tests
 
 ```
-For the tests, we just need to press control+f11 to see the terminal and start the code
+For the tests, we just need to press control+f11 to see the terminal and start the program
 ```
 
 ## Construido con
