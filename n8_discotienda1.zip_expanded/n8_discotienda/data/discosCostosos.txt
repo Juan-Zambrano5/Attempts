@@ -1,0 +1,12 @@
+*** Reporte de discos ***
+=========================
+Nombre del disco: Confessions on a Dance Floor
+Artista: Madonna
+Género: Pop
+Precio: 3600.0
+======================
+Nombre del disco: Is This It
+Artista: The Strokes
+Género: Rock
+Precio: 3600.0
+======================

@@ -1,0 +1,10 @@
+*** Reporte de discos ***
+=========================
+NombreDisco: Confessions on a Dance Floor
+Artista: Madonna
+NombreDisco: Push the Button
+Artista: The Chemical Brothers
+NombreDisco: Is This It
+Artista: The Strokes
+NombreDisco: Elephant
+Artista: The White Stripes
